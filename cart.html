@@ -15,7 +15,7 @@
     <title>Cart</title>
 </head>
 
-<body>
+<body onload="cartsection()">
 
     <section>
         <header>
@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="./index.html">Home</a>
-
-                        <a class="nav-item nav-link " href="./cart.html">Cart <span id="cart" class="text-white"></span></a>
+                        <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                      
+                        <a class="nav-item nav-link " href="./cart.html">Cart <span id="cart"></span></a>
                     </div>
                 </div>
 
@@ -38,51 +38,18 @@
         </header>
     </section>
 
-    <section class="mt-5">
+    <section>
         <main>
-            <div class="container mycard">
-                <div class="card" style="width: 18rem; height: 330px;">
+            <div class="container cartpage">
+                <!-- <div class="card" style="width: 18rem; width: 18rem;">
                     <div class="card-body">
                         <img src="./images/1.png" alt="1.png" class="img-fluid w-100 h-50">
                         <hr />
                         <h5 class="card-title">Iphone 5s</h5>
                         <hr />
-                        <button href="" onclick="cartItem(1,'Iphone 5s')" class="card-link btn btn-success">Cart</button>
-                        <a href="#" class="card-link btn btn-info">info</a>
+                        <a href="#" class="card-link btn btn-success">Cart</a>
                     </div>
-                </div>
-                <div class="card" style="width: 18rem;height: 330px">
-                    <div class="card-body">
-                        <img src="./images/2.png" alt="2.png" class="img-fluid w-100 h-50">
-                        <hr />
-                        <h5 class="card-title">Realme</h5>
-                        <hr />
-                        <button href="" onclick="cartItem(2,'Realme')" class="card-link btn btn-success">Cart</button>
-                        <a href="#" class="card-link btn btn-info">info</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;height: 330px">
-                    <div class="card-body">
-                        <img src="./images/3.png" alt="3.png" class="img-fluid w-100 h-50">
-                        <hr />
-                        <h5 class="card-title">Samsung</h5>
-                        <hr />
-                        <button href="" onclick="cartItem(3,'Samsung')" class="card-link btn btn-success">Cart</button>
-                        <a href="#" class="card-link btn btn-info">info</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;height: 330px">
-                    <div class="card-body">
-                        <img src="./images/4.png" alt="4.png" class="img-fluid w-100 h-50">
-                        <hr />
-                        <h5 class="card-title">LG</h5>
-                        <hr />
-                        <button href="" onclick="cartItem(4,'LG')" class="card-link btn btn-success">Cart</button>
-                        <a href="#"  class="card-link btn btn-info">info</a>
-                    </div>
-                </div>
-
-            </div>
+                </div> -->
         </main>
     </section>
 
